@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="simplecomputation.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="icon" type="image/jpg" href="images/sonny angel whale.jpg">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <ul class="links">
+                <li><a href="index.html">Back to Dashboard</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container">
+        <h2>Unit Converter</h2>
+        <form id="conversionForm">
+            <div class="form-group">
+                <label for="conversionType">Select Conversion Type:</label>
+                <select id="conversionType" class="input-field">
+                    <option value="1">Fahrenheit to Celsius</option>
+                    <option value="2">Celsius to Fahrenheit</option>
+                    <option value="3">Meters to Feet</option>
+                    <option value="4">Feet to Meters</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="value">Enter a value:</label>
+                <input type="number" id="value" class="input-field">
+            </div>
+            <button type="button" onclick="convert()" class="convert-button">Convert</button>
+        </form>
+        <p id="result"></p>
+    </div>
+
+    <script src="simplecomputation.js"></script>
+</body>
+</html>

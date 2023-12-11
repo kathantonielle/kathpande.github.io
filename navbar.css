@@ -1,0 +1,49 @@
+/* navbar.css */
+
+/* Reset default styles for ul and li */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #20232c;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.links {
+    text-align: center;
+    margin-right: 20px;
+}
+
+.links li {
+    display: inline;
+}
+
+.links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.links a:hover {
+    color: #675afe;
+}
+
+.container {
+    margin-top: 60px; /* Adjust the margin to create space below the navbar */
+}
+
+/* Additional styles for your content */
+.top-content {
+    text-align: center;
+    margin-bottom: 20px; /* Adjust the spacing below the top content */
+}
+
